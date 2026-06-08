@@ -1,0 +1,11 @@
+[2026-06-06 05:52:37] USUARIO: Array | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 9
+[2026-06-06 06:42:15] USUARIO: Array | ACCIÓN: CREAR | DETALLE: Registró el producto con SKU: LS777
+[2026-06-06 07:41:15] USUARIO: Array | ACCIÓN: CREAR | DETALLE: Registró el producto con SKU: BS756
+[2026-06-06 07:56:26] USUARIO: Array | ACCIÓN: EDITAR | DETALLE: Actualizó el producto ID: 13 (SKU: BS756)
+[2026-06-06 07:56:47] USUARIO: Array | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 13
+[2026-06-06 07:57:17] USUARIO: Array | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 12
+[2026-06-06 07:59:40] USUARIO: Array | ACCIÓN: EDITAR | DETALLE: Actualizó el producto ID: 8 (SKU: los333)
+[2026-06-08 02:18:28] USUARIO: admin | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 8
+[2026-06-08 00:29:16] USUARIO: admin | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 7
+[2026-06-08 02:30:41] USUARIO: admin | ACCIÓN: ELIMINAR | DETALLE: Eliminó el producto ID: 6
+[2026-06-07 17:33:09] USUARIO: admin | ACCIÓN: CREAR | DETALLE: Registró el producto con SKU: hu88
