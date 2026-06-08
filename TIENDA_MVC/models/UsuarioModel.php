@@ -1,0 +1,39 @@
+<?php
+namespace Models;
+
+use Config\Database;
+use PDO;
+use PDOException;
+
+class UsuarioModel
+{
+    private PDO $conexion;
+
+    /**
+     * Establece la conexión interna con la base de datos MySQL al instanciar el modelo.
+     */
+    public function __construct()
+    {
+        $db = new Database();
+        $this->conexion = $db->connect();
+    }
+
+    /**
+     * Busca un usuario administrador en la base de datos que coincida con el username.
+     */
+    public function buscarPorUsername(string $username): ?array
+    {
+        try {
+            $sql = 'SELECT * FROM usuarios WHERE username = :username LIMIT 1';
+            $stmt = $this->conexion->prepare($sql);
+            $stmt->bindParam(':username', $username);
+            $stmt->execute();
+            $usuario = $stmt->fetch();
+            return $usuario ?: null;
+        } catch (PDOException $e) {
+            return null;
+        }
+    }
+}
+
+?>
